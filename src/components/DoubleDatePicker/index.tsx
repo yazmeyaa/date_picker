@@ -3,6 +3,7 @@ import type { SelectRangeEventHandler, DateRange } from "react-day-picker";
 import { setHours } from "date-fns";
 import { DayPicker } from "react-day-picker";
 import { TimePicker } from "./TimeRange";
+import { ru } from 'date-fns/locale'
 
 interface TransportDayPickerProps {
   defaultMonth: Date;
@@ -49,6 +50,7 @@ const TransportDayPicker: FunctionComponent<TransportDayPickerProps> = ({
         selected={range}
         onSelect={handleChangeRange}
         defaultMonth={defaultMonth}
+        locale={ru}
       />
       <footer className="flex w-full justify-around border-t py-2">
         <section className="flex flex-col gap-2 basis-full px-4">
