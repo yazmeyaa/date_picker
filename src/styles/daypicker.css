@@ -1,0 +1,15 @@
+.rdp-day_range_middle  {
+    background-color: #1649740F;
+    color: #333333;
+}
+
+.rdp-head_cell{
+    color: #AABCCD;
+    font-weight: 500;
+}
+
+.rdp-day_range_start, .rdp-day_range_end {
+    background-color: #0074FC;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
